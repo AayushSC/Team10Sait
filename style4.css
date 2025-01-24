@@ -1,0 +1,196 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body Styling */
+  body {
+    background: linear-gradient(to right, #d4fc79, #96e6a1); /* Light green gradient background */
+    color: #343a40;
+    font-family: 'Poppins', sans-serif; /* Modern and elegant font */
+    line-height: 1.7;
+    font-size: 16px;
+    padding: 20px;
+  }
+  
+  /* Header Styling */
+  header {
+    background: #2b6777; /* Muted blue-green */
+    color: #f8f9fa;
+    padding: 30px 20px;
+    border-radius: 15px;
+    text-align: center;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+    font-family: 'Merriweather', serif; /* Elegant serif font */
+  }
+  
+  header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px 0;
+  }
+  
+  header nav ul li a {
+    text-decoration: none;
+    color: #f8f9fa;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 8px 12px;
+    border-radius: 5px;
+    transition: background 0.3s ease-in-out, transform 0.2s ease-in-out;
+  }
+  
+  header nav ul li a:hover {
+    background: #52ab98; /* Brighter green */
+    transform: scale(1.1);
+  }
+  
+  header figure {
+    margin: 20px auto;
+    max-width: 150px;
+    border: 5px solid #52ab98;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+  
+  header figure img {
+    width: 100%;
+    height: auto;
+  }
+  
+  header figure figcaption {
+    margin-top: 10px;
+    font-size: 1rem;
+    font-style: italic;
+  }
+  
+  /* Main Styling */
+  main {
+    background: #fff;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  main h2 {
+    font-size: 1.8rem;
+    color: #2b6777;
+    border-bottom: 3px solid #52ab98;
+    display: inline-block;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+    font-family: 'Roboto Slab', serif;
+  }
+  
+  main p {
+    margin-bottom: 20px;
+    font-size: 1rem;
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  main p a {
+    color: #2b6777;
+    text-decoration: none;
+    font-weight: 600;
+  }
+  
+  main p a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Table Styling for "Our Schedule" */
+  main .schedule {
+    margin: 20px 0;
+    overflow-x: auto;
+  }
+  
+  main table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  main table th, main table td {
+    border: 2px solid #52ab98; /* Border for cells */
+    padding: 12px;
+    text-align: center;
+  }
+  
+  main table th {
+    background-color: #2b6777;
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  main table tr:nth-child(even) {
+    background-color: #f1f5f9; /* Soft off-white */
+  }
+  
+
+  
+  /* Contact Section */
+  .contactsir {
+    background: #f1f5f9; /* Soft off-white */
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 1rem;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contactsir a {
+    font-weight: bold;
+    color: #2b6777;
+  }
+  
+  /* Footer Styling */
+  footer {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+    color: #2b6777;
+  }
+  
+  footer a {
+    color: #52ab98;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 10px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  footer a:hover {
+    transform: scale(1.1);
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    header nav ul {
+      flex-direction: column;
+    }
+  
+    header figure {
+      max-width: 120px;
+    }
+  
+    main h2 {
+      font-size: 1.5rem;
+    }
+  
+    footer {
+      font-size: 0.9rem;
+    }
+  }
+  
